@@ -1,0 +1,5 @@
+matomo:
+  contents:
+    - js/matomo.js
+  filters: rjsmin
+  output: matomo_webassets/%(version)s-matomo.js
