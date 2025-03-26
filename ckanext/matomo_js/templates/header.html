@@ -1,10 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-</head>
-<body>
+{% ckan_extends %}
 
-</body>
-</html>
+{% block header_wrapper %}
+    {{ super() }}
+    {% asset 'matomo_webassets/matomo' %}
+{% endblock %}
